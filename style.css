@@ -1,0 +1,110 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+body
+{
+      background-color: #042590;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      left: 50%;
+      top: 50%;
+
+}
+h1
+{
+      color: white;
+      text-align: center;
+      font-size: 40px;
+}
+.outerbox
+{
+   border: 2px solid white;
+   height: 450px;
+   width: 1000px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(to right, #033186,#00AFFD);
+}
+
+.ficon
+{
+   border: 0px solid yellow;
+   height: 400px;
+   width: 200px;   
+   color: white;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   font-size: 100px;
+}
+.fouterbox
+{
+  border: 0px solid yellow;
+  height: 400px;
+  width:  800px;
+  background-color: #F1F1F1;
+  border-radius: 220px 0 0 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fouterbox .main 
+{
+  border: 0px solid black;
+  height: 300px;
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fouterbox .main .left, .right
+{
+  border: 0px solid blue;
+  height: 300px;
+  width: 325px;
+}
+.fouterbox .main .left input[type='text']
+{
+  width: 98%;
+  height: 26px;
+  margin-bottom: 2px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.fouterbox .main .right input[type='text']
+{
+  width: 98%;
+  height: 25px;
+  margin-bottom: 2px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.fouterbox .main .right input[type='button']
+{
+  width: 98%;
+  height: 20px;
+  margin-bottom: 2px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: blue;
+}
+.fouterbox .main .left input[type='button']
+{
+  width: 98%;
+  height: 20px;
+  margin-bottom: 2px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.fouterbox .main .right input[type='reset']
+{
+  width: 98%;
+  height: 20px;
+  margin-bottom: 2px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
